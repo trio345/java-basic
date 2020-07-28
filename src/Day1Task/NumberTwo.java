@@ -1,5 +1,6 @@
 package Day1Task;
 
+
 public class NumberTwo {
     public static void main(String[] args) {
         for (int i = 1; i <= 1000; i++){
@@ -14,5 +15,6 @@ public class NumberTwo {
                 System.out.println(i + " ");
             }
         }
+        
     }
 }
