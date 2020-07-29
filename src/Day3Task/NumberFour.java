@@ -8,13 +8,11 @@ public class NumberFour {
     }
 
     private static void readData(){
+        String path = "data.json";
 //        JSONParser jsonParser = new JSONParser();
-        try {
-            Object data = new FileReader("data.json");
-            System.out.println(data);
-        } catch (Exception e){
-            System.out.println(e.getMessage());
-        }
+//        try (BufferedReader br = new BufferedReader(new FileReader(path))) {
+////            return br.split(",");
+//        }
 
 
     }
