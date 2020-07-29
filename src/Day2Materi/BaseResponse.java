@@ -2,7 +2,10 @@ package Day2Materi;
 
 public class BaseResponse<T> {
 
-    
+    public int code;
+    public String message = "";
+    public String error = "";
+    public T data;
 
     public static <T extends Comparable<T>> T max(T a, T b) {
         T max = a;

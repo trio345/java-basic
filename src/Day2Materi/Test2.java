@@ -9,9 +9,8 @@ public class Test2 {
 
     private static Test2 language;
 
-    public static Test2 instance(){
-        
-    }
+//    public static Test2 instance(){
+//    }
 
 
 }
