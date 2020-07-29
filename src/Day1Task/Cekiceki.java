@@ -20,4 +20,9 @@ public class Cekiceki {
     //     if (s < 2) return false;
     //     for ()
     // }
+
+
+    private static void numberEight(){
+        
+    }
 }
