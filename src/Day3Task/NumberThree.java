@@ -41,8 +41,9 @@ public class NumberThree {
 
     }
 
-    private static Integer getTransactionFebruary(){
+    private static Integer getTransactionFebruary(List<Object> list){
         int count = 0;
+//        list.stream().map
 
         return count;
     }
