@@ -7,14 +7,14 @@ public class Ikan extends Hewan{
     }
 
     public Integer hitungBerat(int bobot){
-        int umur = new Hewan().getUmur();
-        int berat = umur * bobot;
+
+        int berat = this.getUmur() * bobot;
         return berat;
     }
 
     public Integer hitungBerat(int bobot, int kandunganAir){
-        int umur = new Hewan().getUmur();
-        int berat = umur * bobot - kandunganAir;
+        int umur = this.getUmur();
+        int berat = (umur * bobot) - kandunganAir;
         return berat;
     }
 }

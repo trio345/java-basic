@@ -10,7 +10,6 @@ public class Jalankan {
         reptil.setJenis("vertebrata");
 
         System.out.println(unggas.profileHewan());
-        System.out.println(reptil.profileHewan());
 
 
         var murai = new Unggas();
